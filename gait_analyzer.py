@@ -68,3 +68,4 @@ class GaitAnalyzer:
         improvement = ((current_stability - baseline_stability) / baseline_stability) * 100
         return improvement
 
+# fix step detection
