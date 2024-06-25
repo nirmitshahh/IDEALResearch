@@ -13,7 +13,7 @@ class TrajectoryOptimizer:
     
     def __init__(self, target_path, stability_threshold=0.7):
         self.target_path = target_path
-        self.stability_threshold = stability_threshold
+        self.stability_threshold = stability_threshold  # tuned this value
         self.optimized_path = None
         
     def objective_function(self, path_points):
