@@ -28,6 +28,7 @@ def main():
     # Initialize components
     analyzer = GaitAnalyzer(sampling_rate=100)
     device = GaitDeviceController()
+    # navigation stuff added
     
     # Load or generate gait data
     try:
