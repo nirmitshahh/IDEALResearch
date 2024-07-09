@@ -67,5 +67,7 @@ class GaitAnalyzer:
         
         improvement = ((current_stability - baseline_stability) / baseline_stability) * 100
         return improvement
+    
+    # added this to track patient progress
 
 # fix step detection
