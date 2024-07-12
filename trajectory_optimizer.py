@@ -113,4 +113,5 @@ class TrajectoryOptimizer:
         plt.axis('equal')
         plt.savefig('trajectory_comparison.png')
         plt.close()
+    # visualization helps see the improvement
 
