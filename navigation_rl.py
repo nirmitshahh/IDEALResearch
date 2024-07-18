@@ -21,7 +21,7 @@ class NavigationAgent:
         
         # Q-table (simple implementation)
         self.q_table = {}
-        self.memory = deque(maxlen=2000)
+        self.memory = deque(maxlen=2000)  # experience replay buffer
         
     def get_state_key(self, state):
         """Convert state array to hashable key"""
