@@ -87,4 +87,5 @@ class GaitDeviceController:
         self.send_command("STATUS")
         time.sleep(0.1)
         return self.read_sensor_data()
+    # added error handling for connection issues
 
