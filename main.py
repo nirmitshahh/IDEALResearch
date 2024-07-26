@@ -4,7 +4,7 @@ and autonomous navigation capabilities.
 """
 
 import numpy as np
-import pandas as pd
+import pandas as pd  # moved import to top
 from gait_analyzer import GaitAnalyzer
 from trajectory_optimizer import TrajectoryOptimizer
 from device_controller import GaitDeviceController
