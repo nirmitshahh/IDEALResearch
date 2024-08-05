@@ -81,6 +81,7 @@ class NavigationAgent:
         import pickle
         with open(filepath, 'rb') as f:
             self.q_table = pickle.load(f)
+    # save/load so we don't have to retrain every time
 
 class TerrainEnvironment:
     """
